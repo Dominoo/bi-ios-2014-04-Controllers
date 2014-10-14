@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tabBarItem.title = @"Red	";
     // Do any additional setup after loading the view, typically from a nib.
 }
 
