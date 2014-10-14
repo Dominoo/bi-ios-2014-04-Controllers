@@ -17,7 +17,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Blue";
-    // Do any additional setup after loading the view.
+    NSLog(@"Blue View DidLoad");
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"Blue View WillAppear");
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    NSLog(@"Blue View DidAppear");
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    NSLog(@"Blue View WillDisAppear");
+    
+}
+- (void)viewDidDisappear:(BOOL)animated {
+    NSLog(@"Blue View WillDidDisAppear");
+}
+
+- (void) dealloc {
+    NSLog(@"Blue View Dealoc");
 }
 
 - (void)didReceiveMemoryWarning {

@@ -17,8 +17,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"Green View DidLoad");
     self.title = @"Green";
 }
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"Green View WillAppear");
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    NSLog(@"Green View DidAppear");
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    NSLog(@"Green View WillDisAppear");
+    
+}
+- (void)viewDidDisappear:(BOOL)animated {
+    NSLog(@"Green View WillDidDisAppear");
+}
+
+- (void) dealloc {
+    NSLog(@"Green View Dealoc");
+}
+
+
 - (IBAction)pushAction:(id)sender {
     //BlueViewController* gVC = [[BlueViewController alloc] init];
     BlueViewController* gVC = [self.storyboard instantiateViewControllerWithIdentifier:@"BVC"];    
