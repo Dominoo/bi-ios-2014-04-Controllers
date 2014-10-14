@@ -17,6 +17,7 @@
 		B4E9FC5019ECED4A00BE1036 /* bi_ios_2014_04_controllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E9FC4F19ECED4A00BE1036 /* bi_ios_2014_04_controllersTests.m */; };
 		B4E9FC6419ED0F0A00BE1036 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E9FC6319ED0F0A00BE1036 /* GreenViewController.m */; };
 		B4E9FC6719ED0FAC00BE1036 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E9FC6619ED0FAC00BE1036 /* BlueViewController.m */; };
+		B4E9FC6A19ED152A00BE1036 /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E9FC6919ED152A00BE1036 /* YellowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		B4E9FC6319ED0F0A00BE1036 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
 		B4E9FC6519ED0FAC00BE1036 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
 		B4E9FC6619ED0FAC00BE1036 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		B4E9FC6819ED152A00BE1036 /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		B4E9FC6919ED152A00BE1036 /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
 		E18F8D62E48831740507C1FA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +126,8 @@
 				B4E9FC6319ED0F0A00BE1036 /* GreenViewController.m */,
 				B4E9FC6519ED0FAC00BE1036 /* BlueViewController.h */,
 				B4E9FC6619ED0FAC00BE1036 /* BlueViewController.m */,
+				B4E9FC6819ED152A00BE1036 /* YellowViewController.h */,
+				B4E9FC6919ED152A00BE1036 /* YellowViewController.m */,
 			);
 			path = "bi-ios-2014-04-controllers";
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 			files = (
 				B4E9FC6419ED0F0A00BE1036 /* GreenViewController.m in Sources */,
 				B4E9FC6719ED0FAC00BE1036 /* BlueViewController.m in Sources */,
+				B4E9FC6A19ED152A00BE1036 /* YellowViewController.m in Sources */,
 				B4E9FC3C19ECED4A00BE1036 /* ViewController.m in Sources */,
 				B4E9FC3919ECED4A00BE1036 /* AppDelegate.m in Sources */,
 				B4E9FC3619ECED4A00BE1036 /* main.m in Sources */,

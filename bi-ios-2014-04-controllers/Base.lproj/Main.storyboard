@@ -93,13 +93,78 @@
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ja7-fF-bQG">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H52-4T-KHP">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Modal Yellow">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="115" y="214" width="91" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="KMh-U9-WIY" kind="modal" identifier="Modal" id="oNo-9a-6f6"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.85098039219999999" green="0.15686274510000001" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="H52-4T-KHP"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="H52-4T-KHP"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="OUL-Ar-c3P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ejT-eQ-RXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="583.5" y="-553"/>
+        </scene>
+        <!--Yellow View Controller-->
+        <scene sceneID="32y-AS-Vni">
+            <objects>
+                <viewController modalTransitionStyle="partialCurl" id="KMh-U9-WIY" customClass="YellowViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="idK-GG-KbN"/>
+                        <viewControllerLayoutGuide type="bottom" id="JdX-of-2Eq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TKe-Mp-Rcl">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQg-p5-Ndo">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Close">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="137" y="246" width="40" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="closeAction:" destination="KMh-U9-WIY" eventType="touchUpInside" id="AXr-6c-z8x"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.9257642224" blue="0.2105075642" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="IQg-p5-Ndo"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="IQg-p5-Ndo"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ju4-Dx-kSi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1198.5" y="-537"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="5Ol-Jd-DSp">
