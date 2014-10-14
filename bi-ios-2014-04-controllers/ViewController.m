@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "YellowViewController.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)modalAction:(id)sender {
+   // YellowViewController* gVC = [[YellowViewController alloc] init];
+    YellowViewController* gVC = [self.storyboard instantiateViewControllerWithIdentifier:@"YVC"];
+    UINavigationController* nvc = [[UINavigationController alloc] initWithRootViewController:gVC];
+
+    [self presentViewController:nvc animated:YES completion:nil];
 }
 
 #pragma mark - Navigation

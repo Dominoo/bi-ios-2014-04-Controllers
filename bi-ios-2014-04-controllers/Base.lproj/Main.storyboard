@@ -103,7 +103,7 @@
                                     <rect key="frame" x="115" y="214" width="91" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="KMh-U9-WIY" kind="modal" identifier="Modal" id="oNo-9a-6f6"/>
+                                    <action selector="modalAction:" destination="8ZM-bL-BB0" eventType="touchUpInside" id="gGw-nM-kNY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -128,7 +128,7 @@
         <!--Yellow View Controller-->
         <scene sceneID="32y-AS-Vni">
             <objects>
-                <viewController modalTransitionStyle="partialCurl" id="KMh-U9-WIY" customClass="YellowViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="YVC" modalTransitionStyle="partialCurl" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KMh-U9-WIY" customClass="YellowViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="idK-GG-KbN"/>
                         <viewControllerLayoutGuide type="bottom" id="JdX-of-2Eq"/>
