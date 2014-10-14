@@ -17,6 +17,7 @@
 		B4E9FC5019ECED4A00BE1036 /* bi_ios_2014_04_controllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E9FC4F19ECED4A00BE1036 /* bi_ios_2014_04_controllersTests.m */; };
 		B4E9FC5B19ECF93D00BE1036 /* CervenyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E9FC5A19ECF93D00BE1036 /* CervenyViewController.m */; };
 		B4E9FC5E19ECF94700BE1036 /* ZlutyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E9FC5D19ECF94700BE1036 /* ZlutyViewController.m */; };
+		B4E9FC6119ECFD8100BE1036 /* ModryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E9FC6019ECFD8100BE1036 /* ModryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		B4E9FC5A19ECF93D00BE1036 /* CervenyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CervenyViewController.m; sourceTree = "<group>"; };
 		B4E9FC5C19ECF94700BE1036 /* ZlutyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlutyViewController.h; sourceTree = "<group>"; };
 		B4E9FC5D19ECF94700BE1036 /* ZlutyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlutyViewController.m; sourceTree = "<group>"; };
+		B4E9FC5F19ECFD8100BE1036 /* ModryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModryViewController.h; sourceTree = "<group>"; };
+		B4E9FC6019ECFD8100BE1036 /* ModryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModryViewController.m; sourceTree = "<group>"; };
 		E18F8D62E48831740507C1FA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +126,8 @@
 				B4E9FC5A19ECF93D00BE1036 /* CervenyViewController.m */,
 				B4E9FC5C19ECF94700BE1036 /* ZlutyViewController.h */,
 				B4E9FC5D19ECF94700BE1036 /* ZlutyViewController.m */,
+				B4E9FC5F19ECFD8100BE1036 /* ModryViewController.h */,
+				B4E9FC6019ECFD8100BE1036 /* ModryViewController.m */,
 			);
 			path = "bi-ios-2014-04-controllers";
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E9FC6119ECFD8100BE1036 /* ModryViewController.m in Sources */,
 				B4E9FC3C19ECED4A00BE1036 /* ViewController.m in Sources */,
 				B4E9FC5E19ECF94700BE1036 /* ZlutyViewController.m in Sources */,
 				B4E9FC5B19ECF93D00BE1036 /* CervenyViewController.m in Sources */,
