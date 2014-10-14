@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ModryViewController.h"
 
 @interface ViewController ()
 
@@ -27,6 +28,13 @@
 
 }
 
+- (IBAction)modalAction:(id)sender {
+    //ModryViewController* mVC = [[ModryViewController alloc] init];
+    ModryViewController* mVC = [self.storyboard instantiateViewControllerWithIdentifier:@"MVC"];
+    
+    [self presentViewController:mVC animated:YES completion:nil];
+    
+}
 
  #pragma mark - Navigation
  
@@ -44,5 +52,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

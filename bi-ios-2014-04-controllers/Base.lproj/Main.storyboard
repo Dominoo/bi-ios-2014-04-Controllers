@@ -25,7 +25,7 @@
                                     <rect key="frame" x="124" y="223" width="43" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="00N-qX-U9a" kind="modal" identifier="modal" id="v3F-8D-g56"/>
+                                    <action selector="modalAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="K92-hg-y3x"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,7 +51,7 @@
         <!--Modry View Controller-->
         <scene sceneID="so1-AF-i8N">
             <objects>
-                <viewController modalTransitionStyle="partialCurl" id="00N-qX-U9a" customClass="ModryViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MVC" modalTransitionStyle="partialCurl" useStoryboardIdentifierAsRestorationIdentifier="YES" id="00N-qX-U9a" customClass="ModryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HGW-Aw-JSr"/>
                         <viewControllerLayoutGuide type="bottom" id="peQ-pv-6at"/>
@@ -87,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cE-YW-c2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="900" y="-548"/>
+            <point key="canvasLocation" x="900" y="-572"/>
         </scene>
         <!--Zluty View Controller-->
         <scene sceneID="Z6J-wm-UBs">
