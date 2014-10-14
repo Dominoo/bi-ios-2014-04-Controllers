@@ -7,7 +7,7 @@
 //
 
 #import "CervenyViewController.h"
-
+#import "ZlutyViewController.h"
 @interface CervenyViewController ()
 
 @end
@@ -40,6 +40,11 @@
     NSLog(@"Cerveny View Dealoc");
 }
 
+- (IBAction)pushYellow:(id)sender {
+  //  ZlutyViewController* zVC = [[ZlutyViewController alloc] init];
+    ZlutyViewController* zVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ZVC"];
+    [self.navigationController pushViewController:zVC animated:YES];
+}
 
 /*
 #pragma mark - Navigation

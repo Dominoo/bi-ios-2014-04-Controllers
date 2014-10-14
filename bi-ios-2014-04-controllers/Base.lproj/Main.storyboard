@@ -27,14 +27,14 @@
         <!--Zluty View Controller-->
         <scene sceneID="Z6J-wm-UBs">
             <objects>
-                <viewController id="aW0-oK-ptQ" customClass="ZlutyViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ZVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aW0-oK-ptQ" customClass="ZlutyViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ec1-7A-vsY"/>
                         <viewControllerLayoutGuide type="bottom" id="grT-ZS-VgJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Hed-Pr-xGg">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.92576422238693989" blue="0.2105075642474612" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.56674754853767362" blue="0.13094844702452457" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="C4i-WE-QWm"/>
                 </viewController>
@@ -80,7 +80,7 @@
                                     <rect key="frame" x="116" y="276" width="89" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="aW0-oK-ptQ" kind="push" id="cb4-l3-yRG"/>
+                                    <action selector="pushYellow:" destination="0A0-ga-f4T" eventType="touchUpInside" id="Bst-rT-TNq"/>
                                 </connections>
                             </button>
                         </subviews>

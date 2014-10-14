@@ -23,6 +23,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIColor* c = self.view.backgroundColor;
+    self.view.backgroundColor = [UIColor yellowColor];
     NSLog(@"Zluty View DidLoad");
     // Do any additional setup after loading the view.
 }
