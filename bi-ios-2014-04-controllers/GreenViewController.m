@@ -20,8 +20,9 @@
     self.title = @"Green";
 }
 - (IBAction)pushAction:(id)sender {
-   // BlueViewController* gVC = [[BlueViewController alloc] init];
-   // se
+    //BlueViewController* gVC = [[BlueViewController alloc] init];
+    BlueViewController* gVC = [self.storyboard instantiateViewControllerWithIdentifier:@"BVC"];    
+    [self.navigationController pushViewController:gVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

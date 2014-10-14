@@ -42,7 +42,6 @@
                                 </variation>
                                 <connections>
                                     <action selector="pushAction:" destination="GOc-PC-e54" eventType="touchUpInside" id="j6o-yJ-Anc"/>
-                                    <segue destination="X7b-dx-9GE" kind="push" id="lC6-QJ-emp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -68,7 +67,7 @@
         <!--Blue-->
         <scene sceneID="tyx-a0-zYn">
             <objects>
-                <viewController title="Blue" id="X7b-dx-9GE" customClass="BlueViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BVC" title="Blue" useStoryboardIdentifierAsRestorationIdentifier="YES" id="X7b-dx-9GE" customClass="BlueViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gw3-Qt-hJ5"/>
                         <viewControllerLayoutGuide type="bottom" id="k1b-Mj-8ej"/>
